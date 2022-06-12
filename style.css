@@ -1,0 +1,129 @@
+/********Header, h2, h3, h4 et font-family = @google_font***********/
+/********Nav et Listes à puces**********/
+/********Body, p***********/
+/********Tableau et Formulaire*********/
+/********div, id#, .class************/
+/********Footer, icons, font-awesome************/
+
+/********** font-family = @google_font ********/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200&display=swap'); /* Je suis une 'police' importer du site Google fonts */
+
+/********Body***********/
+body {
+    margin: 0;
+    padding: 5px;
+    font-family: 'open-sans', cursive;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/****** Header, em, h1, h2, h3, h4, image Principale****** Gros changement et plus de background */
+h1 {
+    margin-top: 400px; 
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px 5px 3px 5px;
+    text-transform: uppercase;
+    text-decoration: underline rgba(136, 136, 136, 0.877);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.788);
+    text-shadow: 1px 2px 3px rgb(32, 32, 32);
+}
+
+/* Ne sert à rien */
+em {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px 5px 3px 5px;
+    text-transform: uppercase;
+    text-decoration: underline rgba(29, 29, 29, 0.877);
+    color: rgba(22, 22, 22, 0.966);
+    text-shadow: 1px 2px 3px rgb(32, 32, 32);
+}
+
+h2, h3, h4 {
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255, 181, 154);
+    border-radius: 8px 5px 3px 5px;
+    text-transform: uppercase;
+    text-decoration: underline rgba(29, 29, 29, 0.877);
+    color: rgba(22, 22, 22, 0.966);
+    text-shadow: 1px 2px 3px rgb(32, 32, 32);
+}
+
+#imagePrincipale {
+    padding-top: 25px;
+    background: url(media/alexandra-dementyeva-Qvsi1vQswOM-unsplash.jpg) no-repeat fixed 50%;
+    background-size: cover;
+    height: 850px;
+    margin: auto;
+}
+/********Nav et Listes à puces**********/
+nav {
+    
+    background: rgba(233, 177, 112, 0650);
+    position: fixed;
+    width: 99%;
+    opacity: 0.7;
+}
+
+ul {
+    
+    margin: 0px 50px;
+    padding: 0;
+}
+
+li {
+    font-size: 1.5rem;
+    font-family: cursive;
+    list-style-type: none;
+}
+ 
+a {
+    text-decoration: none;
+    color: rgb(0, 157, 255);
+}
+
+header li {
+    float: right;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    padding: 18px 16px;
+    font-weight: 700;
+}
+
+#logo {
+    font-family: cursive;
+    font-weight: bold;
+    float: left;
+}
+
+/********Tableau et Formulaire*********/
+table, td{
+    margin: 5px 0px 20px 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow:  1px 2px 3px rgb(37, 37, 37);
+}
+
+th {
+    padding: 0px 50px;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(77, 77, 77);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(61, 61, 61, 0.877);
+    text-decoration: underline rgb(34, 34, 34);
+}
+
+caption {
+    padding: 5px;
+    caption-side: bottom;
+}
